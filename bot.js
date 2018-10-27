@@ -504,6 +504,74 @@ client.on('message', message => {
      
 }); 
 
+client.on('message', message => {
+    var args = message.content.split(/[ ]+/)
+    if(message.content.includes('زق')){
+        message.delete()
+      message.channel.sendMessage("", {embed: {
+        title: "لا تسب",
+        color: 0x06DF00,
+        description: "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ ",
+        footer: {
+          text: "🌟Five Stars🌟    [ !^мohαmε𝕯^!#4476      -     W͈̪̣AR NI̴̧͝GH̴̵T͇#4506 ]"
+        }
+      }}).then(msg => {msg.delete(10000)});
+                          }
+
+     
+}); 
+
+client.on('message', message => {
+    var args = message.content.split(/[ ]+/)
+    if(message.content.includes('خرا')){
+        message.delete()
+      message.channel.sendMessage("", {embed: {
+        title: "لا تسب",
+        color: 0x06DF00,
+        description: "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ ",
+        footer: {
+          text: "🌟Five Stars🌟    [ !^мohαmε𝕯^!#4476      -     W͈̪̣AR NI̴̧͝GH̴̵T͇#4506 ]"
+        }
+      }}).then(msg => {msg.delete(10000)});
+                          }
+
+     
+}); 
+
+client.on('message', message => {
+    var args = message.content.split(/[ ]+/)
+    if(message.content.includes('طيز')){
+        message.delete()
+      message.channel.sendMessage("", {embed: {
+        title: "لا تسب",
+        color: 0x06DF00,
+        description: "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ ",
+        footer: {
+          text: "🌟Five Stars🌟    [ !^мohαmε𝕯^!#4476      -     W͈̪̣AR NI̴̧͝GH̴̵T͇#4506 ]"
+        }
+      }}).then(msg => {msg.delete(10000)});
+                          }
+
+     
+}); 
+
+client.on('message', message => {
+    var args = message.content.split(/[ ]+/)
+    if(message.content.includes('احول')){
+        message.delete()
+      message.channel.sendMessage("", {embed: {
+        title: "لا تسب",
+        color: 0x06DF00,
+        description: "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ ",
+        footer: {
+          text: "🌟Five Stars🌟    [ !^мohαmε𝕯^!#4476      -     W͈̪̣AR NI̴̧͝GH̴̵T͇#4506 ]"
+        }
+      }}).then(msg => {msg.delete(10000)});
+                          }
+
+     
+}); 
+
 
 
 //مانع نشر الانفايت
